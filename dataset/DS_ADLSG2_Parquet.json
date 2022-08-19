@@ -1,0 +1,29 @@
+{
+	"name": "DS_ADLSG2_Parquet",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "LS_ADLSG2",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"DSPFileName": {
+				"type": "string"
+			}
+		},
+		"annotations": [],
+		"type": "Parquet",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": {
+					"value": "@dataset().DSPFileName",
+					"type": "Expression"
+				},
+				"fileSystem": "raw"
+			},
+			"compressionCodec": "snappy"
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

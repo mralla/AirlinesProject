@@ -1,0 +1,9 @@
+{
+	"name": "adfairlines",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "f7f96fea-21b6-489c-9313-9bd71475fec6",
+		"tenantId": "c8ebeaf2-808a-4e46-9d91-6196f737656a"
+	}
+}
