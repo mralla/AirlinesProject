@@ -24,4 +24,4 @@
       File Name: flights/partition-x.csv(zip File)
       Description: Flight Records
 ### Project Overview
-![](https://github.com/mralla/AirlinesProject/blob/main/Airlines%20Project.jpg)
+![](https://github.com/mralla/AirlinesProject/blob/main/Airlines%20Project.jpg) 
